@@ -12,7 +12,7 @@ const Speaker = () => {
 
         <div className="speaker-section-bg">
             <h2 className="about-title pt-5 pb-4 text-center" data-aos="zoom-in" data-aos-duration="1500">
-            Meet our Director's
+            Meet our Directors
             </h2>
             <Container className="py-5">
                 <Row className="align-items-center">
