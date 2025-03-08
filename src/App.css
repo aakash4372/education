@@ -1386,6 +1386,12 @@ scrollbar-thumb:hover {
     height: auto;
   }
 }
+
+
+.brochure-container {
+  text-align: center;
+  margin: 20px 0;
+}
 .brochure-btn {
   background: linear-gradient(45deg, #ff416c, #ff4b2b, #ff416c);
   border: none;
