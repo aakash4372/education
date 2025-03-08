@@ -32,7 +32,7 @@ const MyOffcanvas = () => {
 
             {/* View Brochure Button (Desktop) */}
             <Button className="brochure-btn d-none d-lg-inline-block btn-sm" href="/img/brochure.pdf" download>
-              Brochure
+              View Brochure
             </Button>
           </Nav>
 
@@ -68,7 +68,7 @@ const MyOffcanvas = () => {
 
             {/* View Brochure Button (Inside Offcanvas) */}
             <Button className="brochure-btn w-100 mt-3 d-lg-none" href="/img/brochure.pdf" download>
-              Brochure
+              View Brochure
             </Button>
           </Nav>
         </Offcanvas.Body>

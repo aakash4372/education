@@ -10,7 +10,6 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Carousel } from "react-bootstrap";
-import { motion } from "framer-motion";
 import AOS from "aos";
 import Advisor from "./Advisor";
 import CourseSlider from "./Homecard";
@@ -27,8 +26,8 @@ const HomeSection = () => {
         <Carousel
           indicators={false}
           interval={4000}
-          nextIcon={<NextButton />}
-          prevIcon={<PrevButton />}
+          nextIcon={null} // Removes the right (next) button
+          prevIcon={null} // Removes the left (prev) button
           pause={false}
         >
           {/* Slide 1 */}
@@ -57,6 +56,7 @@ const HomeSection = () => {
         </Carousel>
       </div>
 
+
       {/* Other Sections */}
       <AboutSection />
       <CourseSlider />
@@ -70,20 +70,6 @@ const HomeSection = () => {
   );
 };
 
-const NextButton = () => (
-  <motion.span
-    className="carousel-control-next-icon"
-    whileHover={{ scale: 1.3, rotate: 10 }}
-    whileTap={{ scale: 0.9 }}
-  />
-);
 
-const PrevButton = () => (
-  <motion.span
-    className="carousel-control-prev-icon"
-    whileHover={{ scale: 1.3, rotate: -10 }}
-    whileTap={{ scale: 0.9 }}
-  />
-);
 
 export default HomeSection;
