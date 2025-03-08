@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SchoolProgramsAccordion from "./F&q";
 import Gallery from "./gallery";
+import Phoneapp from "./phoneapp";
 
 const data = [
   {
@@ -88,6 +89,7 @@ const CourseCards = () => {
 
   return (
     <div className="coursecard-section" style={{ background: "linear-gradient(to bottom,rgba(239, 243, 234, 0.18),#CDE8E5,rgba(239, 243, 234, 0.38))" }}>
+      <Phoneapp/>
       <h2 className="about-title pt-5 pb-4 text-center" data-aos="zoom-in" data-aos-duration="1500">
         Our Courses
       </h2>

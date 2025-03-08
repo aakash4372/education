@@ -17,6 +17,8 @@ const media = [
   { id: 9, src: "/child/9.jpg", type: "image", category: "School" },
   { id: 10, src: "/child/10.jpg", type: "image", category: "School" },
   { id: 15, src: "/child/15.jpg", type: "image", category: "School" },
+  { id: 16, src: "/child/17.jpg", type: "image", category: "School" },
+  { id: 17, src: "/child/18.jpg", type: "image", category: "School" },
 ];
 
 const itemsPerPage = 6;

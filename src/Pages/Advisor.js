@@ -15,7 +15,7 @@ const Advisor = () => {
     return (
         <div className="speaker-section-bg">
             <h2 className="about-title pt-5 pb-4 text-center" data-aos="zoom-in">
-            Our Legal Advisor
+            Our Legal Advisor's
             </h2>
 
             {/* Advisor 1: Harikrishnan */}

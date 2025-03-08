@@ -1417,3 +1417,91 @@ scrollbar-thumb:hover {
     font-size: 15px; /* Decrease font size */
   }
 }
+
+/* Background Section */
+.phoneapp-section-bg {
+  background: linear-gradient(135deg, #f9f9f9af, #e0e0e0a7);
+  padding: 60px 0;
+}
+
+/* Title */
+.phoneapp-section-bg .about-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Paragraph Styling */
+.phoneapp-section-bg .about-text {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Style for the icon */
+.feature-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Spacing between icon and text */
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-list .icon {
+  color: #007bff; /* Change color as needed */
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out; /* Smooth movement */
+}
+
+/* Move the icon to the right when hovering over the list item */
+.feature-list li:hover .icon {
+  transform: translateX(8px); /* Moves the icon 8px to the right */
+}
+
+/* Image Styling */
+.phoneapp-section-bg .phone-image {
+  max-width: 80%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.phoneapp-section-bg .phone-image:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .phoneapp-section-bg .phone-image {
+    max-width: 90%; /* Increase image size for tablets */
+  }
+  
+  .phoneapp-section-bg .about-title {
+    font-size: 24px;
+  }
+
+  .phoneapp-section-bg .about-text {
+    font-size: 16px;
+  }
+}
+
+/* Further increase image size for mobile screens */
+@media (max-width: 576px) {
+  .phoneapp-section-bg .phone-image {
+    max-width: 100%; /* Make image full width for small screens */
+  }
+
+  .phoneapp-section-bg .about-title {
+    font-size: 22px;
+  }
+
+  .phoneapp-section-bg .about-text {
+    font-size: 15px;
+  }
+}
